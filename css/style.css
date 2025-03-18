@@ -1,0 +1,113 @@
+/* Обнуление */
+*,
+*::before
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body {
+    height: 100%;
+    line-height: 1;
+}
+body {
+    font-family: Inter;
+    font-size: 15px;
+    color: #1F1F1F;
+}
+/* ------------------ */
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+/* ------------------ */
+
+.main {
+    flex: 1 1 auto;
+}
+
+[class*="__container"]{
+    max-width: 1130px;
+    margin: 0px auto;
+}
+
+.header {
+}
+.header__container {
+    display: flex;
+    min-height: 75px;
+    align-items: center;
+}
+.header__logo {
+}
+.header__menu {
+    flex: 1 1 auto;
+}
+.header__button {
+    flex: 0 0 139px;
+}
+
+.menu {
+    display: flex;
+    justify-content: left;
+}
+.menu__list {
+    display: flex;
+}
+.menu__item {
+    margin: 0px 0px 0px 25px;
+}
+.menu__link {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #33383F;
+    letter-spacing: 0.2px;
+}
+
+.button {
+    display: inline-block;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding: 8px 32px;
+    background-color: #0070A0;
+    transition: background-color 0.3s ease 0s;
+}
+.button:hover {
+    background-color:  #6da4bb;
+}
+.button_blue {
+    background-color: #0070A0;
+}
+.button_blue:hover{
+    background-color:  #6da4bb;
+}
