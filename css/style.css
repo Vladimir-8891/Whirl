@@ -92,10 +92,22 @@ body {
 .header__menu {
     flex: 1 1 auto;
 }
-.header__button {
-    flex: 0 0 139px;
+.header__right__block {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
-
+.header__sign-in-button {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 89px;
+}
+.header__button {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 139px;
+    margin: 0px 0px 0px 0.42px;
+}
 .menu {
     display: flex;
     justify-content: left;
@@ -114,8 +126,31 @@ body {
     color: #33383F;
     letter-spacing: 0.2px;
 }
+/*---------БЕЛАЯ КНОПКА------------------------------------------------------*/
+.button_white {
+    display: inline-block;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.2px;
+    color: #0070A0;
+    background-color: #FFFFFF;
+    padding: 6px 20px;
+    white-space: nowrap;
+    transition: background-color 0.3s ease 0s;
+}
+.button:hover {
+    background-color:  #d8e2e6;
+}
+.button_white {
+    background-color: #FFFFFF;
+}
+.button_white:hover{
+    background-color:  #d8e2e6;
+}
 /*---------------КНОПКА------------------------------------------------------*/
-.button {
+.button_blue {
     display: inline-block;
     font-family: Inter;
     font-weight: 400;
