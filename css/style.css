@@ -88,6 +88,13 @@ body {
     align-items: center;
 }
 .header__logo {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 1.6;
+    color:#2D2D2D;
+    letter-spacing: 0.2px;
+    margin: 0px 0px 0px 6px;
 }
 .header__menu {
     flex: 1 1 auto;
