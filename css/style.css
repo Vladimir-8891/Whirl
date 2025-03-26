@@ -97,7 +97,9 @@ body {
     margin: 0px 0px 0px 6px;
 }
 .header__menu {
-    flex: 1 1 auto;
+    flex-grow: 1;
+    flex-shrink:  1;
+    flex-basis: auto;
 }
 .header__right__block {
     display: flex;
@@ -177,4 +179,42 @@ body {
 }
 .button_blue:hover{
     background-color:  #6da4bb;
+}
+/*===============================================================*/
+.everyday-tasks {
+   padding: 145px 0px 0px 0px;
+}
+.everyday-tasks__container {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.everyday-tasks__content {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 46%;
+}
+.everyday-tasks__block-text {
+    max-width: 485px;
+}
+.block-text {
+
+}
+.block-text__title {
+
+}
+.block-text__text {
+
+}
+.block-text__button_blue {
+
+}
+.block-text__button_white {
+
+}
+.everydey-tasks__image {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 40%;
+    margin-left: auto;
 }
