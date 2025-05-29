@@ -47,7 +47,9 @@ body {
 /* ------------------------------------------------------------------------ */
 
 .main {
-    flex: 1 1 auto;
+    flex-grow: 1;
+    flex-shrink:  1;
+    flex-basis: auto;
 }
 
 [class*="__container"] {
@@ -275,8 +277,19 @@ body {
     color: #1F1F1F;
 }
 .trust__companies {
-
+    display: flex;
+    justify-content: space-around;
+    padding: 23px 60px 0px 60px;
 }
 .trust__focusfox {
+
+}
+.companies__logo_nowInTech {
+    font-family: National Park;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #969FA4;
 
 }
