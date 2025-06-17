@@ -293,3 +293,58 @@ body {
     color: #969FA4;
 
 }
+
+.advantages__container {
+    display: flex;
+    width: 1130px;
+    height: 250px;
+    margin-top: 160px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fast_conteiner {
+    width: 355px;
+    height: 250px;
+    background-color: #FAEA73;
+    padding: 32px;
+    margin-right: 32px;
+}
+
+.benefit_conteiner {
+    width: 355px;
+    height: 250px;
+    background-color: #CCEFF6;
+    padding: 32px;
+}
+
+.safety_conteiner {
+    width: 355px;
+    height: 250px;
+    background-color: #F7CEDC;
+    padding: 32px;
+}
+
+.fast_conteiner h1,
+.benefit_conteiner h1,
+.safety_conteiner h1 {
+    color: #1F1F1F;
+    font-family: Fraunces;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31.25px;
+    letter-spacing: 0.2px;
+}
+
+.fast_conteiner p,
+.benefit_conteiner p,
+.safety_conteiner p {
+    color: #1F1F1F;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+
