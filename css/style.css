@@ -186,12 +186,12 @@ body {
 .everyday-tasks {
    padding: 145px 0px 80px 0px;
 }
-.everyday-tasks__container {
+.everyday-tasks__content {
    display: flex;
    align-items: center;
    flex-wrap: wrap;
 }
-.everyday-tasks__content {
+.everyday-tasks__content_item {
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: 46%;
@@ -261,7 +261,7 @@ body {
     margin-left: auto;
 }
 /*====================Доверие компаний=================================*/
-.trust__container {
+.trust__content {
     display: flex;
    align-items: center;
    justify-content: center;
@@ -294,7 +294,9 @@ body {
 
 }
 
-.advantages__container {
+/*-----------Преимущества-------*/
+
+.advantages__content {
     display: flex;
     width: 1130px;
     height: 250px;
@@ -303,31 +305,35 @@ body {
     flex-wrap: wrap;
 }
 
-.fast_conteiner {
+.fast_content {
     width: 355px;
     height: 250px;
     background-color: #FAEA73;
     padding: 32px;
     margin-right: 32px;
+    box-sizing: border-box;
 }
 
-.benefit_conteiner {
+.benefit_content {
     width: 355px;
     height: 250px;
     background-color: #CCEFF6;
     padding: 32px;
+    margin-right: 32px;
+    box-sizing: border-box;
 }
 
-.safety_conteiner {
+.safety_content {
     width: 355px;
     height: 250px;
     background-color: #F7CEDC;
     padding: 32px;
+    box-sizing: border-box;
 }
 
-.fast_conteiner h1,
-.benefit_conteiner h1,
-.safety_conteiner h1 {
+.fast_content h3,
+.benefit_content h3,
+.safety_content h3 {
     color: #1F1F1F;
     font-family: Fraunces;
     font-weight: 400;
@@ -336,9 +342,9 @@ body {
     letter-spacing: 0.2px;
 }
 
-.fast_conteiner p,
-.benefit_conteiner p,
-.safety_conteiner p {
+.fast_content p,
+.benefit_content p,
+.safety_content p {
     color: #1F1F1F;
     font-family: Inter;
     font-size: 15px;
@@ -347,4 +353,35 @@ body {
     letter-spacing: 0.2px;
 }
 
+/*-----------Контейнер защита--------*/
 
+.care__content {
+    display: flex;
+    background-color: #F7F9FA;
+    width: 1440px;
+    height: 694px;
+    margin-top: 120px;
+}
+.care__content_container {
+    display: flex;
+    height: 534px;
+}
+
+.care__content_title {
+    width: 650px;
+    height: 100px;
+    font-family: Fraunces;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 50.4px;
+    letter-spacing: 0.2px;
+    color: #1F1F1F;
+}
+.care__content_title h4 {
+    font-family: Fraunces;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 50.4px;
+    letter-spacing: 0.5px;
+    color: #1F1F1F;
+}
