@@ -35,7 +35,6 @@ body {
     font-size: 15px;
     color: #1F1F1F;
 }
-/* ------------------------------------------------------------------------ */
 .wrapper {
     overflow: hidden;
     display: flex;
@@ -46,7 +45,6 @@ body {
     margin: 0 auto;
     border: 2px solid #F00000;
 }
-/* ------------------------------------------------------------------------ */
 
 .main {
     flex-grow: 1;
@@ -78,7 +76,6 @@ body {
         max-width: none;
     }
 }
-/* ------------ШАПКА------------------------------------------------------------ */
 .header {
     position: absolute;
     width: 100%;
@@ -139,7 +136,6 @@ body {
     color: #33383F;
     letter-spacing: 0.2px;
 }
-/*---------БЕЛАЯ КНОПКА------------------------------------------------------*/
 .button_white {
     display: inline-block;
     font-family: Inter;
@@ -162,7 +158,6 @@ body {
 .button_white:hover{
     background-color:  #d8e2e6;
 }
-/*---------------СИНЯЯ КНОПКА------------------------------------------------------*/
 .button_blue {
     display: inline-block;
     font-family: Inter;
@@ -184,7 +179,6 @@ body {
 .button_blue:hover{
     background-color:  #6da4bb;
 }
-/*==================== Повседневные задачи ===========================================*/
 .everyday-tasks {
    padding: 145px 0px 80px 0px;
 }
@@ -262,7 +256,6 @@ body {
     flex-basis: 40%;
     margin-left: auto;
 }
-/*====================Доверие компаний=================================*/
 .trust__content {
     display: flex;
    align-items: center;
@@ -295,8 +288,6 @@ body {
     color: #969FA4;
 
 }
-
-/*-----------Преимущества-------*/
 
 .advantages__content {
     display: flex;
@@ -355,14 +346,12 @@ body {
     letter-spacing: 0.2px;
 }
 
-/*-----------Контейнер защита--------*/
-
 .care__content {
     display: flex;
     background-color: #F7F9FA;
     width: 1440px;
     height: 694px;
-    margin: 120px 0px 0px 0px;
+    margin: 120px 0px 0px -140px;
     align-items: center;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -387,6 +376,7 @@ body {
 .care__content_title {
     width: 650px;
     height: 100px;
+    margin: 0px 0px 0px 50px;
 }
 
 .care__content_title-start {
@@ -418,6 +408,7 @@ body {
 .care__content_images-blok {
     width: 485px;
     height: 479px;
+    margin-left: 139px;
 }
 
 .care__content_anti-loss {
@@ -427,6 +418,11 @@ body {
     border-bottom: 1px solid #C2CDD8;
     box-sizing: border-box;
     padding: 17px 0px 0px 12px;
+}
+
+.care__blok_anti-loss_arrow {
+    width: 18px;
+    height: 10px;
 }
 
 .care__anti-loss_blok {
@@ -471,7 +467,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 17px 0px 0px 12px;
+    padding: 0px 0px 0px 12px;
     box-sizing: border-box;
     margin-top: 1px;
 }
@@ -538,7 +534,7 @@ body {
     width: 1130px;
     height: 218px;
     box-sizing: border-box;
-    margin: 120px 155px;
+    margin: 155px 0px;
     justify-content: space-between;
 }
 
@@ -636,4 +632,29 @@ body {
     line-height: 24px;
     letter-spacing: 0.2px;
     margin-top: 11px;
+}
+
+.set__content {
+    width: 1440px;
+    height: 550;
+    box-sizing: border-box;
+    background-color: #0070A0;
+    display: flex;
+    margin-left: -140px;
+}
+
+.set__content_item {
+    width: 1130px;
+    height: 389.97px;
+    display: flex;
+    margin-top: 80.39px;
+    margin-left: 155px;
+}
+
+.set__content-img {
+    display: block;
+}
+
+.set__content_blok {
+    display: block;
 }
