@@ -779,6 +779,7 @@ body {
     font-family: Fraunces;
     font-weight: 400;
     font-size: 25px;
+    margin-top: 7px;
 }
 
 .automated__content_options-text {
@@ -809,6 +810,7 @@ body {
     font-size: 25px;
     line-height: 31.25px;
     letter-spacing: 0.2px;
+    margin-top: 5px;
 }
 
 .automated__content_informed-text {
@@ -837,6 +839,7 @@ body {
     font-family: Fraunces;
     font-weight: 400;
     font-size: 25px;
+    margin-top: 16px;
 }
 
 .automated__content_automation-text {
@@ -868,6 +871,7 @@ body {
     font-size: 25px;
     line-height: 31.25px;
     letter-spacing: 0.2px;
+    margin-top: 10px;
 }
 
 .automated__content_info-text {
@@ -923,6 +927,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 6.64px;
+    transition: background-color 0.3s ease 0s;
 }
 
 .blog__content_title-button:hover{
@@ -959,6 +964,7 @@ body {
     align-items: center;
     margin-top: 25.02px;
     margin-left: 24px;
+    transition: background-color 0.3s ease 0s;
 }
 
 .blog__improvements_button:hover{
@@ -1002,9 +1008,9 @@ body {
 }
 
 .blog__tricks-button {
+    display: flex;
     width: 112px;
     height: 22px;
-    display: flex;
     color: #2C90C9;
     width: 122px;
     height: 22px;
@@ -1017,6 +1023,11 @@ body {
     align-items: center;
     margin-top: 25.02px;
     margin-left: 23.67px;
+    transition: background-color 0.3s ease 0s;
+}
+
+.blog__tricks_button:hover{
+    background-color: #87c1dc;
 }
 
 .blog__tricks_title {
@@ -1071,6 +1082,11 @@ body {
     align-items: center;
     margin-top: 25.02px;
     margin-left: 24.34px;
+    transition: background-color 0.3s ease 0s;
+}
+
+.blog__news_button:hover{
+    background-color: #87c1dc;
 }
 
 .blog__news_title {
@@ -1107,6 +1123,7 @@ body {
     width: 1230px;
     height: 370px;
     margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .started__content_item {
@@ -1122,4 +1139,60 @@ body {
     height: 258px;
     margin-top: 63.98px;
     margin-left: 64px;
+}
+
+.stadrted__content_item-title {
+    width: 448px;
+    height: 51px;
+    font-family: Fraunces;
+    font-weight: 400;
+    font-size: 42px;
+    letter-spacing: 0.2px;
+}
+
+.stadrted__content_item-text {
+    width: 481px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    margin-top: 21px;
+    margin-bottom: 36px;
+}
+
+.stadrted__content_item-menu {
+    width: 502.91px;
+    height: 37px;
+    margin-top: 12px;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    color: #626A72;
+}
+
+.started__list {
+    display: flex;
+    font-weight: 400;
+    
+    padding: 0px 0px 0px 0px;
+}
+
+.started__list li {
+    background: url(../img/started/tick.svg) left no-repeat;
+    padding: 0px 0px 0px 20px;
+    
+}
+
+.started__list li:nth-child(1){
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+}
+
+.started__list li:nth-child(2){
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    margin-left: 32px;
 }
