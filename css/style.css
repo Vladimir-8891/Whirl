@@ -1196,3 +1196,23 @@ body {
     letter-spacing: 0.2px;
     margin-left: 32px;
 }
+
+.footer__item {
+    width: 1130px;
+    height: 352px;
+    margin: 48px 155px 32px;
+}
+
+.footer__item_top {
+    width: 1130px;
+    height: 216px;
+}
+
+.footer__item_botton {
+    width: 1130px;
+    height: 35px;
+}
+
+.footer__item_botton-left{
+    display: flex;
+}
