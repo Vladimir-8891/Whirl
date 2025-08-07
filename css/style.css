@@ -1197,22 +1197,22 @@ body {
     margin-left: 32px;
 }
 
-.footer__item {
+.footer__inner {
     width: 1130px;
     height: 352px;
     margin: 48px 155px 32px;
 }
 
-.footer__item_top {
+.footer__inner_top {
     width: 1130px;
     height: 216px;
 }
 
-.footer__item_botton {
+.footer__inner_botton {
     width: 1130px;
     height: 35px;
 }
 
-.footer__item_botton-left{
+.footer__inner_botton-left{
     display: flex;
 }
