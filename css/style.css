@@ -1403,6 +1403,67 @@ body {
     margin-left: 16px;
 }
 
+.footer__list_newsletter {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.footer__link-newsletter {
+    color: #1F1F1F;
+}
+
+.footer__link-sign {
+    color: #1F1F1F;
+}
+
+.footer__list_newsletter li:nth-child(1){
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin: 0px 0px 0px 0px;
+    color: #1F1F1F;
+}
+
+.footer__list_newsletter li:nth-child(2){
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin: 12px 0px 0px 0px;
+}
+
+.footer__item-form {
+    margin: 16px 0px 0px 0px;
+}
+
+.form-row {
+    width: 216.39px;
+    height: 54px;
+    font-size: 13px;
+    color: #626A72;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.footer__email {
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid #C2CDD8;
+    border-left: none;
+    margin-top: 26px;
+}
+
+.button__footer {
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.footer__arrow {
+    width: 22px;
+    height: 28px;
+
+}
+
+
 .footer__inner_botton {
     width: 1130px;
     height: 35px;
