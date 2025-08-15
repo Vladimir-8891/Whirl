@@ -1432,24 +1432,29 @@ body {
 }
 
 .footer__item-form {
-    margin: 16px 0px 0px 0px;
+    margin: 14px 0px 0px 0px;
 }
 
 .form-row {
     width: 216.39px;
-    height: 54px;
+    height: 44px;
     font-size: 13px;
     color: #626A72;
     line-height: 20px;
     letter-spacing: 0.2px;
+    border-bottom: 1px solid #C2CDD8;
+    overflow: visible;
+    position: relative;
 }
 
 .footer__email {
-    border-top: none;
-    border-right: none;
-    border-bottom: 1px solid #C2CDD8;
-    border-left: none;
-    margin-top: 26px;
+    border: none;
+    margin-top: 22px;
+    font-size: 13px;
+    color: #626A72;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    padding-left: 15.42px;
 }
 
 .button__footer {
@@ -1460,9 +1465,18 @@ body {
 .footer__arrow {
     width: 22px;
     height: 28px;
-
+    margin-top: 18px;
+    margin-left: 31px;
+    position: absolute;
 }
 
+.footer__inner hr {
+    border: none;
+    height: 1px;
+    background-color: #DEE5EB;
+    margin-top: 64px;
+    margin-bottom: 36px;
+}
 
 .footer__inner_botton {
     width: 1130px;
@@ -1471,4 +1485,33 @@ body {
 
 .footer__inner_botton-left{
     display: flex;
+}
+
+.footer__inner_botton-left p {
+    font-size: 13px;
+    line-height: 19.6px;
+    letter-spacing: 0.2px;
+    margin: 0px 0px 0px 0px;
+}
+
+.footer__inner_botton-left a {
+    font-size: 13px;
+    line-height: 19.6px;
+    letter-spacing: 0.2px;
+    color: #0070A0;
+}
+
+.footer__inner_botton-right {
+    width: 106px;
+    height: 22.64px;
+    margin-top: 7.17px;
+}
+
+.footer__birdie {
+    display: block;
+    width: 22px;
+    height: 23px;
+    background-image: url(../img/footer/birdie.svg);
+    background-repeat: no-repeat;
+
 }
