@@ -105,20 +105,18 @@ body {
 }
 .header__right__block {
     display: flex;
+    width: 243.42px;
+    height: 36px;
     align-items: center;
     flex-direction: row;
+    box-sizing: border-box;
 }
 .header__sign-in-button {
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: 89px;
-}
-.header__button {
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: 139px;
+    width: 89px;
+    height: 36px;
     margin: 0px 0px 0px 0.42px;
 }
+
 .menu {
     display: flex;
     justify-content: left;
@@ -137,12 +135,12 @@ body {
     color: #33383F;
     letter-spacing: 0.2px;
 }
-.button_white {
+.header__button_white {
     display: inline-block;
     font-family: Inter;
     font-weight: 400;
     font-size: 15px;
-    line-height: 1.6;
+    line-height: 24px;
     letter-spacing: 0.2px;
     color: #0070A0;
     background-color: #FFFFFF;
@@ -150,16 +148,17 @@ body {
     white-space: nowrap;
     transition: background-color 0.3s ease 0s;
 }
-.button:hover {
+.header__button_white:hover {
     background-color:  #d8e2e6;
 }
-.button_white {
-    background-color: #FFFFFF;
+
+.header__button {
+    width: 139px;
+    height: 36px;
+    margin: 0px 0px 0px 11px;
 }
-.button_white:hover{
-    background-color:  #d8e2e6;
-}
-.button_blue {
+
+.header__button_blue {
     display: inline-block;
     font-family: Inter;
     font-weight: 400;
@@ -171,15 +170,10 @@ body {
     background-color: #0070A0;
     transition: background-color 0.3s ease 0s;
 }
-.button:hover {
+.header__button_blue:hover {
     background-color:  #6da4bb;
 }
-.button_blue {
-    background-color: #0070A0;
-}
-.button_blue:hover{
-    background-color:  #6da4bb;
-}
+
 .everyday-tasks {
    padding: 145px 0px 80px 0px;
 }
@@ -196,9 +190,7 @@ body {
 .everyday-tasks__block-text {
     max-width: 485px;
 }
-.block-text {
 
-}
 .block-text__title {
     font-family: Fraunces;
     font-weight: 400;
@@ -208,9 +200,15 @@ body {
     color: #1F1F1F;
 }
 .block-text__title:not(:last-child) {
-    margin: 0px 0px 40px 0px;
+    margin: 0px 0px 21px 0px;
 }
+
 .block-text__text {
+    width: 380px;
+    height: 90px;
+}
+
+.block-text__text p {
     font-family: Inter;
     font-weight: 400;
     font-size: 20px;
@@ -219,38 +217,60 @@ body {
     max-width: 351px;
 }
 .block-text__text:not(:last-child) {
-    margin: 0px 0px 33px 0px;
+    margin: 0px 0px 32px 0px;
 }
-.block-text__button_blue {
-        display: inline-block;
-        font-family: Inter;
-        font-weight: 400;
-        font-size: 17px;
-        line-height: 27px;
-        letter-spacing: 0.2px;
-        color: #FFFFFF;
-        padding: 6px 20px;
-        background-color: #0070A0;
-        transition: background-color 0.3s ease 0s;
-    }
-    .button:hover {
-        background-color:  #c9dfe9;
-    }
-    .button_blue {
-        background-color: #0070A0;
-    }
-    .button_blue:hover{
-        background-color:  #c9dfe9;
-    }
-.block-text__button_white {
-    display: inline-block;
+
+.everyday-tasks__blok_button {
+    display: flex;
+    width: 308px;
+    height: 43px;
+}
+
+.everyday-tasks__button_blue {
+    display: flex;
+    width: 174px;
+    height: 43px;
     font-family: Inter;
     font-weight: 400;
     font-size: 17px;
     line-height: 27px;
     letter-spacing: 0.2px;
-
+    color: #FFFFFF;
+    background-color: #0070A0;
+    transition: background-color 0.3s ease 0s;
+    justify-content: center;
+    align-items: center;
 }
+.everyday-tasks__button_blue:hover {
+    background-color:  #c9dfe9;
+}
+
+.everyday-tasks__button_white {
+    display: flex;
+    width: 110px;
+    height: 43px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    background-color: #FFFFFF;
+    color: #0070A0;
+    transition: background-color 0.3s ease 0s;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+}
+.everyday-tasks__button_white:hover {
+    background-color:  #d8e2e6;
+}
+
+.everyday-tasks__button_white span {
+    padding: 0px 15px 0px 0px;
+    background: url(../img/everyday-tasks/arrow.svg) right no-repeat;
+    position: absolute;
+}
+
 .everydey-tasks__image {
     flex-grow: 0;
     flex-shrink: 1;
@@ -258,10 +278,11 @@ body {
     margin-left: auto;
 }
 .trust__content {
+    width: 1230px;
+    height: 96.81px;
     display: flex;
-   align-items: center;
-   justify-content: center;
-   min-height: 96.81px;
+    align-items: center;
+    justify-content: center;
 }
 .trust__block-text__title {
     font-family: Inter;
@@ -271,15 +292,37 @@ body {
     text-align: center;
     letter-spacing: 0.2px;
     color: #1F1F1F;
+    margin-top: 0px;
+    margin-bottom: 24px;
 }
 .trust__companies {
     display: flex;
     justify-content: space-around;
-    padding: 23px 60px 0px 60px;
 }
-.trust__focusfox {
 
+.trust__focusfox {
+    width: 124px;
+    height: 33px;
 }
+
+.trust__nowInTech {
+    width: 159px;
+    height: 27px;
+    margin-left: 61px;
+}
+
+.trust__optimer {
+    width: 148px;
+    height: 33px;
+    margin-left: 60px;
+}
+
+.trust__carded {
+    width: 117px;
+    height: 34px;
+    margin-left: 61px; 
+}
+
 .companies__logo_nowInTech {
     font-family: National Park;
     font-weight: 400;
@@ -467,11 +510,29 @@ body {
     border-top: 1px solid #C2CDD8;
     border-bottom: 1px solid #C2CDD8;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 0px 0px 0px 12px;
     box-sizing: border-box;
     margin-top: 1px;
+}
+
+.care__exchange_blok {
+    width: 373.83px;
+    height: 38px;
+    font-family: Fraunces;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25.2px;
+    letter-spacing: 0.2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.care__downArrow {
+    margin-top: 10px;
+    
 }
 
 .care__menu_encrypted {
@@ -1479,8 +1540,10 @@ body {
 }
 
 .footer__inner_botton {
+    display: flex;
     width: 1130px;
     height: 35px;
+    justify-content: space-between;
 }
 
 .footer__inner_botton-left{
@@ -1502,6 +1565,7 @@ body {
 }
 
 .footer__inner_botton-right {
+    display: flex;
     width: 106px;
     height: 22.64px;
     margin-top: 7.17px;
@@ -1513,5 +1577,22 @@ body {
     height: 23px;
     background-image: url(../img/footer/birdie.svg);
     background-repeat: no-repeat;
+}
 
+.footer__in {
+    display: block;
+    width: 22px;
+    height: 23px;
+    background-image: url(../img/footer/in.svg);
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+.footer__f {
+    display: block;
+    width: 22px;
+    height: 23px;
+    background-image: url(../img/footer/f.svg);
+    background-repeat: no-repeat;
+    margin-left: 20px;
 }
